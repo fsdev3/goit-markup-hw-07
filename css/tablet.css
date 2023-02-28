@@ -3,8 +3,12 @@
     }
     .team-list {
         gap: 24px;
+        padding-bottom: 104px;
       }
       .team-list .item {
         margin-bottom: 40px;
+      }
+      .team-list .item:nth-last-child(-n + 2) {
+        margin-bottom: 0;
       }
 }

@@ -361,13 +361,13 @@ body {
 
 /* section feature */
 
-.section {
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.section.no-padding {
+} */
+/* .section.no-padding {
   padding-top: 0px;
-}
+} */
 .future-list {
   display: flex;
   gap: 24px;
@@ -420,6 +420,7 @@ body {
 /* section our team */
 .our-team {
   background-color: var(--secondary-white-color);
+  padding-bottom: 128px;
 }
 .team-list {
   display: flex;
@@ -428,8 +429,6 @@ body {
   justify-content: center;
 }
 .team-list .item {
-  /* margin-right: auto;
-  margin-left: auto; */
   width: 260px;
   /* margin-right: 24px; */
   background-color: var(--primary-white-color);
@@ -483,7 +482,9 @@ body {
 /* customers */
 .customers-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 .customers-item {
   width: 168px;
