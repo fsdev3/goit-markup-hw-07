@@ -14,4 +14,12 @@
       .team-list .item:nth-last-child(-n + 2) {
         margin-bottom: 0;
       }
+      .modal {
+        width: 408px;
+        height: 586px;
+      }
+      .modal-form {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
 }

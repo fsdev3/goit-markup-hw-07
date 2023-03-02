@@ -20,5 +20,8 @@
     .section-title {
         margin-top: 120px;
     }
+    .modal {
+        height: 584px;
+    }
 
 }

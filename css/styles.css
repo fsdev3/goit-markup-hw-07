@@ -153,9 +153,9 @@ body {
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
-  width: 494px;
+  width: 318px;
   text-align: center;
   color: var(--primary-white-color);
   margin: 0 auto;
@@ -195,14 +195,15 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
+  overflow-y: scroll;
   visibility: visible;
   transition: opacity var(--duration) var(--timing),
     visibility var(--duration) var(--timing);
 }
 .modal {
   position: absolute;
-  width: 408px;
-  height: 584px;
+  width: 392px;
+  height: 586px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -250,8 +251,8 @@ body {
 .modal-form {
   display: flex;
   flex-direction: column;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .input-wrap {
   position: relative;
@@ -333,7 +334,7 @@ body {
   background: var(--accent-color);
 }
 
-.checkbox:checked + .privacy-text::before {
+.checkbox:checked+.privacy-text::before {
   background: var(--accent-color);
   border: none;
   background-image: url(../images/check.svg);
@@ -370,24 +371,37 @@ body {
 } */
 .future-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .future-list .item:last-child {
   margin-right: 0;
 }
 
 .icon-box {
+  visibility: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 112px;
-  width: 264px;
+  /* justify-content: center;
+  align-items: center; */
+  /* height: 112px;
+  width: 264px; */
   margin-bottom: 8px;
   background-color: var(--secondary-white-color);
 }
 .icon-feut {
-  width: 64px;
-  height: 64px;
+  /* width: 64px;
+  height: 64px; */
+  width: 0;
+  height: 0;
+}
+.future-list .item>h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 .future-list .title,
 .teammate-title {
@@ -398,6 +412,8 @@ body {
 }
 .item .item-text {
   margin-top: 8px;
+  font-weight: 500;
+  color: var(--primary-text-color);
 }
 
 /* section what we doing */
@@ -407,7 +423,6 @@ body {
 }
 
 .section-title {
-  margin-top: 96px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -415,6 +430,7 @@ body {
   text-transform: capitalize;
   color: var(--title-text-color);
   margin-bottom: 72px;
+  padding-top: 96px;
   letter-spacing: 0.02em;
 }
 /* section our team */
@@ -430,7 +446,6 @@ body {
 }
 .team-list .item {
   width: 260px;
-  /* margin-right: 24px; */
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
