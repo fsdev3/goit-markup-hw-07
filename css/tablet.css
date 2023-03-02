@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-    .container { max-width: 736px;
+    .container { max-width: 768px;
     }
     .our-team {
         padding-bottom: 0;
@@ -9,6 +9,7 @@
         padding-bottom: 104px;
       }
       .team-list .item {
+        width: 264px;
         margin-bottom: 40px;
       }
       .team-list .item:nth-last-child(-n + 2) {
@@ -22,4 +23,15 @@
         padding-left: 24px;
         padding-right: 24px;
       }
+      .future-list {
+        gap: 24px;
+        row-gap: 72px;
+      }
+      .future-list .item {
+        width: calc((100% - 32px) / 2);
+      }
+      .future-list .item>h3 {
+        text-align: left;
+      }
+     
 }
