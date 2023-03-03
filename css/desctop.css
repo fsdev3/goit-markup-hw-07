@@ -21,10 +21,10 @@
         height: 584px;
     }
     .future-list .item {
-        width: 264px;
+        width: calc((100% - 3 * 24px) / 4);
     }
     .future-list {
-        row-gap: 0;
+        gap: 24;
         padding-top: 120px;
         padding-bottom: 120px;
     }
