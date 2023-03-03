@@ -17,9 +17,6 @@
     .customers-item {
         margin-bottom: 0;
     }
-    .section-title {
-        /* margin-top: 120px; */
-    }
     .modal {
         height: 584px;
     }
@@ -49,7 +46,11 @@
     }
     .section-we-doing {
         display: contents;
-      }
-   
-
+    }
+    .card-item {
+        width: 360px;
+    }
+    .button-list {
+        margin-bottom: 72px;
+    }
 }

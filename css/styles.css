@@ -152,13 +152,13 @@ body {
 }
 
 .hero-title {
+  margin: 0 auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.07;
-  width: 318px;
-  text-align: center;
+  width: 319px;
+  letter-spacing: 0.02em;
   color: var(--primary-white-color);
-  margin: 0 auto;
 }
 .button-order {
   display: inline-block;
@@ -631,12 +631,18 @@ body {
   color: var(--secondary-white-color);
 }
 /* portfolio.html */
+
+.button-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+  gap: 16px 24px;
+}
 .button-filter {
-  padding: 12px 24px;
+  padding: 8px 16px;
   background: var(--secondary-white-color);
   font-family: inherit;
   font-size: 16px;
-  align-items: center;
   text-align: center;
   line-height: 1.5;
   font-weight: 500;
@@ -657,26 +663,14 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.button-list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
-}
-.button-list .item {
-  margin-right: 24px;
-}
-.button-list .item:last-child {
-  margin-right: 0;
-}
 /* project list */
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
 }
-.card-item {
-  margin-right: 24px;
-  margin-bottom: 48px;
-}
+
 .thumb {
   display: block;
   transition-property: box-shadow;

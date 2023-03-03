@@ -1,10 +1,16 @@
 @media screen and (min-width: 768px) {
     .container { max-width: 768px;
-    }
-    .our-team {
+      }
+      .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        width: 496px;
+        
+      }
+      .our-team {
         padding-bottom: 0;
-    }
-    .team-list {
+      }
+      .team-list {
         gap: 24px;
         padding-bottom: 104px;
       }
@@ -33,5 +39,17 @@
       .future-list .item>h3 {
         text-align: left;
       }
-     
+      .project-list {
+        gap: 48px 24px;
+      }
+      .card-item {
+        width: 356px;
+      }
+      .button-list {
+        justify-content: center;
+        margin-bottom: 64px;
+      }
+      .button-filter {
+        padding: 12px 24px;
+      }
 }
