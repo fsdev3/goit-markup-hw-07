@@ -3,13 +3,10 @@
         max-width: 428px;
         
     }
-    .menu-icon-list {
-        justify-content: center;
-        gap: 56px;
-    }
-    .addr-link-tel {
+  
+    /* .addr-link-tel {
         font-size: 36px;
-    }
+    } */
 }
 
 @media screen and (min-width: 426px) {
