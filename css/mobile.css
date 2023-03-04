@@ -1,16 +1,11 @@
 @media screen and (min-width: 480px) {
-    .container { 
-        max-width: 428px;
-        
-    }
-  
-    /* .addr-link-tel {
-        font-size: 36px;
-    } */
+  .container {
+    max-width: 428px;
+  }
 }
 
 @media screen and (min-width: 426px) {
-    .addr-link-tel {
-        font-size: 36px;
-    }
+  .addr-link-tel {
+    font-size: 36px;
+  }
 }
