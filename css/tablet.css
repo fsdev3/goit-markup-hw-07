@@ -126,6 +126,9 @@
   .footer-titles {
     text-align: start;
   }
+  .footer-box {
+    width: 264px;
+  }
   .subs-form {
     flex-direction: row;
   }

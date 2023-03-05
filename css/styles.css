@@ -585,8 +585,10 @@ body {
   align-items: center;
   gap: 72px;
 }
-.footer-text {
+.footer-box {
   width: 268px;
+}
+.footer-text {
   margin-top: 16px;
   color: var(--footer-text-color);
 }
