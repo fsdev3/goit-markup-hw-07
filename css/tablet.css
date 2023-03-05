@@ -114,10 +114,27 @@
   .addr-link:focus {
     color: var(--accent-color);
   }
-  /* all except first neighbor */
-  /* .addr-list .item + .item {
-    margin-left: 40px;
-  } */
+
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 108px;
+    gap: 24px;
+  }
+  .footer-titles {
+    text-align: start;
+  }
+  .subs-form {
+    flex-direction: row;
+  }
+  .subs-input {
+    width: 264px;
+  }
+  .btn-subs {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
