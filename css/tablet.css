@@ -119,3 +119,14 @@
     margin-left: 40px;
   } */
 }
+
+@media screen and (max-width: 767px) {
+  .mob-hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .mob-menu {
+    display: none;
+  }
+}
