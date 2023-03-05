@@ -20,11 +20,13 @@
   }
   .modal-title {
     padding-top: 72px;
+    font-size: inherit;
     text-align: center;
     margin-bottom: 16px;
   }
   .modal-input {
     width: 360px;
+    height: 40px;
   }
   .btn-send {
     margin-left: 95px;

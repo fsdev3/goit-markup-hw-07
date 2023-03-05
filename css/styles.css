@@ -289,10 +289,11 @@ body {
 
 .modal-title {
   padding-top: 56px;
+  font-size: 18px;
   text-align: center;
   font-weight: 500;
   color: var(--dark-bg-color);
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .modal-form {
@@ -316,7 +317,7 @@ body {
 }
 .modal-input {
   width: 100%;
-  height: 40px;
+  height: 36px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 38px;
@@ -344,7 +345,7 @@ body {
 }
 .modal-comment {
   width: 100%;
-  height: 80px;
+  height: 108px;
   padding: 8px 12px;
 }
 .modal-comment::placeholder {
