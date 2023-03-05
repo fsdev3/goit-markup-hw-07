@@ -128,6 +128,7 @@
   }
   .footer-box {
     width: 264px;
+    margin-bottom: 72px;
   }
   .subs-form {
     flex-direction: row;
@@ -137,6 +138,9 @@
   }
   .btn-subs {
     margin: 0;
+  }
+  .project-list {
+    justify-content: flex-start;
   }
 }
 
