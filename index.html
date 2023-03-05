@@ -27,10 +27,43 @@
     <header class="header-items">
       <div class="container header-container">
         <nav class="main-nav">
-          <a class="logo link" href="./index.html"
-            ><span class="logo-first">Web</span>Studio</a
-          >
+          <div>
+            <a class="logo link" href="./index.html"
+              ><span class="logo-first">Web</span>Studio</a
+            >
+          </div>
+          <div class="mob-hidden">
+            <ul class="site-nav">
+              <li class="item">
+                <a class="nav-link current link" href="./index.html">Studio</a>
+              </li>
+              <li class="item">
+                <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="item">
+                <a class="nav-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
 
+          <div class="mob-hidden">
+            <address>
+              <ul class="addr-list">
+                <li class="addr-item item">
+                  <a class="addr-link link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="addr-item item">
+                  <a class="addr-link link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <!-- mobile menu -->
           <button type="button" class="menu-open-button" data-menu-open>
             <svg width="32" height="32">
               <use class="icon-menu" href="./images/sprite.svg#hamburger"></use>
@@ -48,35 +81,35 @@
                     ></use>
                   </svg>
                 </button>
-                <ul class="site-nav">
+                <ul class="mob-site-nav">
                   <li class="item">
-                    <a class="nav-link current link" href="./index.html"
+                    <a class="mob-nav-link current link" href="./index.html"
                       >Studio</a
                     >
                   </li>
                   <li class="item">
-                    <a class="nav-link link" href="./portfolio.html"
+                    <a class="mob-nav-link link" href="./portfolio.html"
                       >Portfolio</a
                     >
                   </li>
                   <li class="item">
-                    <a class="nav-link link" href="">Contacts</a>
+                    <a class="mob-nav-link link" href="">Contacts</a>
                   </li>
                 </ul>
               </div>
               <div>
                 <address class="addr-main">
-                  <ul class="addr-list">
+                  <ul class="mob-addr-list">
                     <li class="addr-item item">
                       <a
-                        class="addr-link link addr-link-email"
+                        class="mob-addr-link link addr-link-email"
                         href="mailto:info@devstudio.com"
                         >info@devstudio.com</a
                       >
                     </li>
                     <li class="addr-item item">
                       <a
-                        class="addr-link link addr-link-tel"
+                        class="mob-addr-link link addr-link-tel"
                         href="tel:+110001111111"
                         >+11 (000) 111-11-11</a
                       >

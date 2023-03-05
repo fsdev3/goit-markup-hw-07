@@ -4,8 +4,13 @@
   }
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 429px) {
   .addr-link-tel {
     font-size: 36px;
+  }
+  .mob-menu {
+    max-width: 428px;
+    left: auto;
+    right: auto;
   }
 }
