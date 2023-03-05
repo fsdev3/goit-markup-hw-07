@@ -61,10 +61,6 @@
     justify-content: space-between;
   }
 
-  /* .nav-tab-desc {
-    display: flex;
-    justify-content: space-between;
-  } */
   .header-items {
     border-bottom: 1px solid var(--footer-text-color);
   }
@@ -114,8 +110,8 @@
     transition-timing-function: var(--timing);
   }
 
-  .mob-addr-link:hover,
-  .mob-addr-link:focus {
+  .addr-link:hover,
+  .addr-link:focus {
     color: var(--accent-color);
   }
   /* all except first neighbor */

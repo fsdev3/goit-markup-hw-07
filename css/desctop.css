@@ -1,56 +1,77 @@
 @media screen and (min-width: 1200px) {
-    .container { max-width: 1158px;
-    }
-    .our-team {
-        padding-bottom: 120px;
-    }
-    .team-list {
-        flex-wrap: nowrap;
-        padding-bottom: 0;
-    }
-    .team-list .item {
-        margin-bottom: 0;
-    }
-    .customers-list {
-        flex-wrap: nowrap;
-    }
-    .customers-item {
-        margin-bottom: 0;
-    }
-    .modal {
-        height: 584px;
-    }
-    .future-list .item {
-        width: calc((100% - 3 * 24px) / 4);
-    }
-    .future-list {
-        gap: 24;
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-    .icon-box {
-        visibility: visible;
-        justify-content: center;
-        align-items: center;
-        height: 112px;
-        width: 264px;
-    }
-    .icon-feut {
-        width: 64px;
-        height: 64px;
-    }
-    .we-doing, .title-we-doing {
-        padding-top: 0;
-        padding-bottom: 120px;
-        margin-bottom: 0;
-    }
-    .section-we-doing {
-        display: contents;
-    }
-    .card-item {
-        width: 360px;
-    }
-    .button-list {
-        margin-bottom: 72px;
-    }
+  .container {
+    max-width: 1158px;
+  }
+  .our-team {
+    padding-bottom: 120px;
+  }
+  .team-list {
+    flex-wrap: nowrap;
+    padding-bottom: 0;
+  }
+  .team-list .item {
+    margin-bottom: 0;
+  }
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+  .customers-item {
+    margin-bottom: 0;
+  }
+  .modal {
+    height: 584px;
+  }
+  .future-list .item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+  .future-list {
+    gap: 24;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .icon-box {
+    visibility: visible;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 264px;
+  }
+  .icon-feut {
+    width: 64px;
+    height: 64px;
+  }
+  .we-doing,
+  .title-we-doing {
+    padding-top: 0;
+    padding-bottom: 120px;
+    margin-bottom: 0;
+  }
+  .section-we-doing {
+    display: contents;
+  }
+  .card-item {
+    width: 360px;
+  }
+  .button-list {
+    margin-bottom: 72px;
+  }
+  /* main nav */
+  .main-nav {
+    justify-content: flex-start;
+  }
+  .main-nav-block {
+    margin-left: 76px;
+  }
+  .main-addr-block {
+    margin-left: auto;
+  }
+  .addr-list {
+    display: flex;
+    gap: 40px;
+  }
+  .addr-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }
