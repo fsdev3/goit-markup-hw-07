@@ -75,11 +75,10 @@ body {
 }
 
 .menu-close-button {
-  font-size: 16px;
   background: var(--footer-text-color);
   border: 1px solid var(--icon-modal);
   border-radius: 50%;
-  padding: 1px 7px 2px 7px;
+  font-size: 15px;
   transition-property: background, fill;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
@@ -95,9 +94,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  /* max-width: 428px;
-  max-height: 796px;
-  z-index: 1; */
   padding: 40px;
   font-size: 40px;
   background: var(--primary-white-color);
@@ -284,7 +280,7 @@ body {
   background: var(--footer-text-color);
   border: 1px solid var(--icon-modal);
   border-radius: 50%;
-  padding: 1px 7px 2px 7px;
+  font-size: 15px;
   transition-property: background, fill;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing);
