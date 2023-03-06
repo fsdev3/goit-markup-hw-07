@@ -88,4 +88,14 @@
     width: 463px;
     margin-left: auto;
   }
+  .section-hero {
+    background-image: var(--hero-l-gr), url(../images/people-office.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-hero {
+      background-image: var(--hero-l-gr), url(../images/people-office-2x.jpg);
+    }
+  }
 }
