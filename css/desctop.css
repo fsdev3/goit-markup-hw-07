@@ -2,8 +2,14 @@
   .container {
     max-width: 1158px;
   }
+  .button-order {
+    margin-top: 48px;
+  }
   .our-team {
     padding-bottom: 120px;
+  }
+  .section-title {
+    padding-top: 120px;
   }
   .team-list {
     flex-wrap: nowrap;
@@ -14,6 +20,7 @@
   }
   .customers-list {
     flex-wrap: nowrap;
+    padding-bottom: 120px;
   }
   .customers-item {
     margin-bottom: 0;
@@ -43,8 +50,7 @@
   .we-doing,
   .title-we-doing {
     padding-top: 0;
-    padding-bottom: 120px;
-    margin-bottom: 0;
+    margin-bottom: 72;
   }
   .section-we-doing {
     display: contents;
@@ -89,6 +95,8 @@
     margin-left: auto;
   }
   .section-hero {
+    height: 600px;
+    padding-top: 188px;
     background-image: var(--hero-l-gr), url(../images/people-office.jpg);
   }
   @media (min-device-pixel-ratio: 2),
@@ -97,5 +105,13 @@
     .section-hero {
       background-image: var(--hero-l-gr), url(../images/people-office-2x.jpg);
     }
+  }
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .project-list {
+    justify-content: flex-start;
+    gap: 48px 24px;
   }
 }

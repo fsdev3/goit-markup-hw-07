@@ -7,16 +7,18 @@
     line-height: 1.07;
     width: 496px;
   }
+  .button-order {
+    margin-top: 40px;
+  }
   .our-team {
     padding-bottom: 0;
   }
   .team-list {
-    gap: 24px;
+    gap: 72px 24px;
     padding-bottom: 104px;
   }
   .team-list .item {
     width: 264px;
-    margin-bottom: 40px;
   }
   .team-list .item:nth-last-child(-n + 2) {
     margin-bottom: 0;
@@ -121,14 +123,13 @@
     flex-wrap: wrap;
     align-items: flex-start;
     padding-left: 108px;
-    gap: 24px;
+    gap: 72px 24px;
   }
   .footer-titles {
     text-align: start;
   }
   .footer-box {
     width: 264px;
-    margin-bottom: 72px;
   }
   .subs-form {
     flex-direction: row;
@@ -139,10 +140,9 @@
   .btn-subs {
     margin: 0;
   }
-  .project-list {
-    justify-content: flex-start;
-  }
+
   .section-hero {
+    height: 436px;
     background-image: var(--hero-l-gr), url(../images/people-office-tab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
@@ -152,6 +152,14 @@
       background-image: var(--hero-l-gr),
         url(../images/people-office-tab-2x.jpg);
     }
+  }
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .project-list {
+    justify-content: flex-start;
+    gap: 72px 24px;
   }
 }
 
