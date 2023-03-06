@@ -67,19 +67,19 @@ body {
   height: 70px;
 }
 
-.menu-open-button {
-  display: block;
-  margin-left: auto;
-  border: none;
-  background-color: transparent;
-}
+.menu-open-button,
 .menu-close-button {
   display: block;
   margin-left: auto;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
-
+.menu-close-button:hover,
+.menu-close-button:focus {
+  /* background: var(--accent-color);
+  stroke: var(--footer-text-color); */
+}
 .mob-menu {
   position: fixed;
   top: 0;
